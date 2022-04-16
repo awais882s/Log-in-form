@@ -1,11 +1,11 @@
-import logo from "./logo.svg";
-import "./App.css";
-
+import "./scss/App.scss"
+import "bootstrap/dist/js/bootstrap";
+import Login from "./Pages/Login/login";
 function App() {
   return (
-    <div className="App">
-      <h1>React App</h1>
-    </div>
+    <>
+      <Login />
+    </>
   );
 }
 
